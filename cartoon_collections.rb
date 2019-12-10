@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(elements)
   elements_summoned=[]
-  elements.collect{|element|  elements_summoned.push("#{element}!")}
+  elements.collect{|element|  elements_summoned.push("#{element.capitalize()}!")}
   elements_summoned
 end
 
