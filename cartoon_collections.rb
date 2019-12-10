@@ -9,8 +9,10 @@ end
 def long_planeteer_calls(calls)
   calls.each{|call| puts call 
   if call.length < 4
+    puts "LONG"
     return true 
     end}
+    puts "SHORT"
   false
 end
 
