@@ -4,7 +4,8 @@ end
 
 def summon_captain_planet(elements)
   elements_summoned=[]
-  elements.collect{|element|  elements_summoned
+  elements.collect{|element|  elements_summoned.push("#{element}!")}
+  elements_summoned
 end
 
 def long_planeteer_calls# code an argument here
