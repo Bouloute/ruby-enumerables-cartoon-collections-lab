@@ -6,8 +6,9 @@ def summon_captain_planet(elements)
   elements.collect{|element|  "#{element.capitalize()}!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  calls.each{|call| call.length <4 return 
+  false
 end
 
 def find_the_cheese# code an argument here
